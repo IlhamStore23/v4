@@ -43,18 +43,18 @@ if [[ ! -z "${PID}" ]]; then
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[40;1;37m            SSH Account            \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "Username    : $Login" | tee -a /etc/log-create-user.log
-echo -e "Password    : $Pass" | tee -a /etc/log-create-user.log
-echo -e "Expired On  : $exp" | tee -a /etc/log-create-user.log
+echo -e "Username       : $Login" | tee -a /etc/log-create-user.log
+echo -e "Password       : $Pass" | tee -a /etc/log-create-user.log
+echo -e "Expired On     : $exp" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "IP          : $IP" | tee -a /etc/log-create-user.log
-echo -e "Host        : $domen" | tee -a /etc/log-create-user.log
-echo -e "OpenSSH     : $opensh" | tee -a /etc/log-create-user.log
-echo -e "SSH-WS      : $portsshws" | tee -a /etc/log-create-user.log
-echo -e "SSH-SSL-WS  : $wsssl" | tee -a /etc/log-create-user.log
-echo -e "SSL/TLS     : $ssl" | tee -a /etc/log-create-user.log
-echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
-echo -e "SSH-UDP     : 56-65545" | tee -a /etc/log-create-user.log
+echo -e "IP             : $IP" | tee -a /etc/log-create-user.log
+echo -e "Host           : $domen" | tee -a /etc/log-create-user.log
+echo -e "OpenSSH        : $opensh" | tee -a /etc/log-create-user.log
+echo -e "SSH-WS         : $portsshws" | tee -a /etc/log-create-user.log
+echo -e "SSH-SSL-WS     : $wsssl" | tee -a /etc/log-create-user.log
+echo -e "SSL/TLS        : $ssl" | tee -a /etc/log-create-user.log
+echo -e "UDPGW          : 7100-7300" | tee -a /etc/log-create-user.log
+echo -e "SSH-UDP        : 56-65545" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 #echo -e "OpenVPN Config : http://$IP:81/" | tee -a /etc/log-create-user.log
 #echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
@@ -73,22 +73,22 @@ else
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[40;1;37m            SSH Account            \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "Username    : $Login" | tee -a /etc/log-create-user.log
-echo -e "Password    : $Pass" | tee -a /etc/log-create-user.log
-echo -e "Expired On  : $exp" | tee -a /etc/log-create-user.log
+echo -e "Username        : $Login" | tee -a /etc/log-create-user.log
+echo -e "Password        : $Pass" | tee -a /etc/log-create-user.log
+echo -e "Expired On      : $exp" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "IP          : $IP" | tee -a /etc/log-create-user.log
-echo -e "Host        : $domen" | tee -a /etc/log-create-user.log
-echo -e "OpenSSH     : 22" | tee -a /etc/log-create-user.log
-echo -e "SSH-WS      : 80" | tee -a /etc/log-create-user.log
-echo -e "SSH-SSL-WS  : 443" | tee -a /etc/log-create-user.log
-echo -e "SSL/TLS     : 447 , 777" | tee -a /etc/log-create-user.log
-echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
-echo -e "SSH-UDP     : 56-65545" | tee -a /etc/log-create-user.log
+echo -e "IP              : $IP" | tee -a /etc/log-create-user.log
+echo -e "Host            : $domen" | tee -a /etc/log-create-user.log
+echo -e "OpenSSH         : 22" | tee -a /etc/log-create-user.log
+echo -e "SSH-WS          : 80" | tee -a /etc/log-create-user.log
+echo -e "SSH-SSL-WS      : 443" | tee -a /etc/log-create-user.log
+echo -e "SSL/TLS         : 447 , 777" | tee -a /etc/log-create-user.log
+echo -e "UDPGW           : 7100-7300" | tee -a /etc/log-create-user.log
+echo -e "SSH-UDP         : 56-65545" | tee -a /etc/log-create-user.log
 #echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 #echo -e "OpenVPN Config : http://$IP:81/" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "Expired On     : $exp" | tee -a /etc/log-create-user.log
+echo -e "Expired On      : $exp" | tee -a /etc/log-create-user.log
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Payload WSS" | tee -a /etc/log-create-user.log
 echo -e "
